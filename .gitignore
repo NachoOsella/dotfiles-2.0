@@ -1,0 +1,90 @@
+# Ignorar historial, sesiones y archivos temporales
+.bash_history
+.zsh_history
+.viminfo
+.pulse-cookie
+.zcompdump*
+.zcompdump*.zwc
+.xprofile.save
+.zshrc.pre-oh-my-zsh
+.bash_logout
+.bash_profile
+.bashrc
+
+# Ignorar carpetas de caché y datos temporales
+.cache/
+.mozilla/
+.pki/
+.local/
+.gnupg/
+.dotnet/
+.npm/
+.steam/
+.Steam/
+.oh-my-zsh/
+.java/
+.vscode/
+.ssh/
+.icons/
+
+
+
+# Ignorar carpetas de usuario no relacionadas con configuración
+Downloads/
+Documents/
+
+# Ignorar configuraciones específicas de sesiones gráficas
+.Xauthority
+.xsession*
+.xinitrc*
+.Xresources
+.xprofile
+
+# Ignorar entorno de desarrollo si no versionás sus archivos
+.vscode/
+
+# Ignorar archivos binarios, backup o temporales
+*~
+*.swp
+*.bak
+
+# Ignorar Steam (ya lo apunta el .steampid)
+.steampid
+.steampath
+
+# --- .config exclusiones ---
+
+# Aplicaciones no relevantes o que se configuran desde la GUI
+.config/Code/
+.config/BraveSoftware/
+.config/vesktop/
+.config/vlc/
+.config/spotify/
+.config/mpv/
+.config/dconf/
+.config/htop/
+.config/simple-update-notifier/
+.config/session/
+.config/yay/
+.config/gtk-3.0/
+.config/qt5ct/
+.config/qt6ct/
+.config/QtProject.conf
+.config/mimeapps.list
+.config/user-dirs.*
+.config/go/
+.config/pulse/
+.config/systemd/
+.config/github-copilot/
+.config/glib-2.0/
+.config/pcmanfm-qt/
+
+
+
+# Archivos sueltos que no suelen editarse a mano
+.config/k*rc
+.config/baloofileinformationrc
+.config/bookmarks_*
+
+
+

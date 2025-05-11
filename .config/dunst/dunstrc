@@ -1,0 +1,28 @@
+[global]
+font = "JetBrainsMono Nerd Font 12"
+allow_markup = yes
+geometry = "300x60-10+40"
+timeout = 10
+corner_radius = 12
+corners = all
+format = "<span font_desc='FiraCode Nerd Font 16' weight='bold'> %s</span>\n%b"
+
+[frame]
+width = 2
+color = "#8ec07c"               ; acento verde suave 
+
+[urgency_low]
+background = "#32302f"          ; fondo Gruvbox Dark 
+foreground = "#fbf1c7"          ; texto cálido 
+timeout = 5
+
+[urgency_normal]
+background = "#32302f"
+foreground = "#fbf1c7"
+timeout = 20
+
+[urgency_critical]
+background = "#32302f"
+foreground = "#fbf1c7"
+timeout = 0
+

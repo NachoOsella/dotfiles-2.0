@@ -1,0 +1,127 @@
+window#waybar {
+  background: transparent;
+}
+
+* {
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 17px;
+    min-height: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#window {
+  background-color: #d4be98;
+  color: #282828;
+  margin-left: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+#custom-arch {
+  background-color: #89b482;
+  padding-top: 1px;
+  padding-left: 0px;
+  padding-right: 10px;
+  color: #282828;
+  padding-right: 6px;
+  padding-left: 1px;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+
+#workspaces {
+  border-radius: 4px;
+  background-color: #928374;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: 10px;
+}
+
+#workspaces button {
+  background: #928374;
+  color: #d5c4a1;
+  border-radius: 4px;
+}
+
+#workspaces button.active{
+  background: #3c3836;
+  color: #d79921;
+  border-radius: 4px;
+}
+
+#pulseaudio {
+  background-color: #ea6962;
+  color: #282828;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 10px;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+#network {
+  background-color: #7daea3;
+  color: #282828;
+  padding-left: 10px;
+  padding-right: 8px;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+
+#clock {
+  background-color: #d3869b;
+  color:#282828;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+
+.custom-spotify {
+    font-size: 17px;
+    padding-left: 10px;
+    padding-right: 15px;
+    background-color: #a9b665;
+    color: #282828;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+#tray {
+    background-color: #d8a657;
+    color: #282828;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+#memory {
+    background-color: #e78a4e;
+    color: #282828;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+
+#custom-power {
+    color: #282828;
+    background-color: #89b482;
+    border-radius: 4px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 14px;
+}
