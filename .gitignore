@@ -26,6 +26,7 @@
 .vscode/
 .ssh/
 .icons/
+.obsidian/
 
 
 
@@ -78,6 +79,7 @@ Documents/
 .config/github-copilot/
 .config/glib-2.0/
 .config/pcmanfm-qt/
+.config/obsidian/
 
 
 
